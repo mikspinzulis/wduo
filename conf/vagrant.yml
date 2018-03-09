@@ -49,6 +49,7 @@
 
     wkv_site_env: local
     base_pubkeys_enable: False
+    expose_php_vars_globally: True
 
     varnish_control_key: something-randomly-generated
 
