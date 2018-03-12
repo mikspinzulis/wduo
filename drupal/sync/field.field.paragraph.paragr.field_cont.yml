@@ -1,0 +1,28 @@
+uuid: f18621e1-4943-49e7-b28e-53061ff44374
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_cont
+    - node.type.article
+    - paragraphs.paragraphs_type.paragr
+id: paragraph.paragr.field_cont
+field_name: field_cont
+entity_type: paragraph
+bundle: paragr
+label: cont
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      article: article
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

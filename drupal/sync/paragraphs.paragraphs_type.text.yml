@@ -1,0 +1,9 @@
+uuid: 4820fd36-0f25-47e5-9d43-06bd6111c20a
+langcode: en
+status: true
+dependencies: {  }
+id: text
+label: text
+icon_uuid: null
+description: 'This is text.'
+behavior_plugins: {  }

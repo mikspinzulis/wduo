@@ -1,0 +1,33 @@
+uuid: 64981a2e-bc46-494f-9a30-3c148c84cf6f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.paragr.field_cont
+    - field.field.paragraph.paragr.field_img
+    - paragraphs.paragraphs_type.paragr
+  module:
+    - image
+id: paragraph.paragr.default
+targetEntityType: paragraph
+bundle: paragr
+mode: default
+content:
+  field_cont:
+    weight: 0
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_img:
+    weight: 1
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden: {  }

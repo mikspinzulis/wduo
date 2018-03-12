@@ -1,0 +1,9 @@
+uuid: 392aaee6-9ddb-4909-902a-6ec58c88b565
+langcode: en
+status: true
+dependencies: {  }
+id: paragr
+label: paragr
+icon_uuid: null
+description: 'This is'
+behavior_plugins: {  }

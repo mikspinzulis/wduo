@@ -1,0 +1,9 @@
+uuid: 73205906-e4fe-416c-ae38-4574a85304d0
+langcode: en
+status: true
+dependencies: {  }
+id: imgg
+label: imgg
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

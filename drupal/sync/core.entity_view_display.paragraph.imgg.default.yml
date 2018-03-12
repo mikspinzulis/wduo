@@ -1,0 +1,24 @@
+uuid: 14560dbd-7d24-4c5f-a0a8-dae1bfb8f7c2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.imgg.field_himgg
+    - paragraphs.paragraphs_type.imgg
+  module:
+    - image
+id: paragraph.imgg.default
+targetEntityType: paragraph
+bundle: imgg
+mode: default
+content:
+  field_himgg:
+    weight: 0
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden: {  }
